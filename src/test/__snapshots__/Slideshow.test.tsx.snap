@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`renders slideshow component > test that firstwine is shown in slideshow 1`] = `
+<h2
+  class="slideshowProductName"
+>
+  Tissot Vin Jaune La Vasée
+</h2>
+`;

@@ -1,0 +1,17 @@
+.wineCard {
+  background-color: white;
+  color: black;
+  width: 80%;
+  height: 90%;
+  border-radius: 0.75rem;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.wineCard img {
+  width: 35%;
+}
+
+.wineName {
+  font-weight: normal;
+}

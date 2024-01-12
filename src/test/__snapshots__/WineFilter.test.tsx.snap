@@ -1,0 +1,17 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`renders filter component in listView > test the filter for all wines 1`] = `
+<h2
+  class="wineName"
+>
+  Tissot Vin Jaune La Vasée
+</h2>
+`;
+
+exports[`renders filter component in listView > test the filter for all wines 2`] = `
+<h2
+  class="wineName"
+>
+  Niepoort Bioma Vintage
+</h2>
+`;

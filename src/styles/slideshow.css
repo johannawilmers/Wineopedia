@@ -1,0 +1,71 @@
+.wineSlide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-grow: 1;
+  gap: 30px;
+  flex-basis: 0;
+}
+.buttonLeft,
+.buttonRight {
+  border: none;
+  cursor: pointer;
+  width: 48px;
+  height: 48px;
+  background-size: 48px;
+  background-color: transparent;
+  margin-top: 28%;
+}
+.buttonLeft {
+  background-image: url(../assets/leftarrow.png);
+}
+.buttonRight {
+  background-image: url(../assets/rightarrow.png);
+}
+.slideshowProductName {
+  margin: 0;
+  font-size: x-large;
+}
+.slideShow {
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+  justify-content: center;
+  padding-top: 5%;
+}
+
+.wineInformation {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#errorNoWine {
+  text-align: center;
+  margin: 2% 2%;
+  font-size: large;
+}
+
+/* for phone viewing */
+@media screen and (max-width: 400px) {
+  .wineImage {
+    height: 150px;
+  }
+  .wineInformation {
+    font-size: 12px;
+  }
+}
+
+/* for laptops  */
+@media screen and (min-width: 1224px) {
+  .wineImage {
+    height: 250px;
+  }
+}

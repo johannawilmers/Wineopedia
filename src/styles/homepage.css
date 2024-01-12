@@ -1,0 +1,33 @@
+#headerFront {
+  text-align: center;
+  font-size: 5rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: bold;
+  background-image: url(../assets/winoo.png);
+  background-size: 250px;
+  background-repeat: repeat;
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 3px #ff9e61; /* width and color */
+  background-clip: text;
+  margin-bottom: 0;
+}
+
+.preamble {
+  text-align: center;
+  color: #ff9e61;
+  font-size: 22px;
+  font-weight: 200;
+  margin-top: 0;
+}
+
+@media screen and (max-width: 400px) {
+  #headerFront {
+    font-size: 2rem;
+    -webkit-text-stroke: 1px #ff9e61; /* width and color */
+  }
+  .preamble {
+    font-size: medium;
+    margin-bottom: 3%;
+  }
+}
